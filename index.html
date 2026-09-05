@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flappy Bird</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="ui-container">
+      <div id="hud">
+        <div id="score-label">
+          SCORE:
+
+          <span class="score-val">000</span>
+        </div>
+
+        <div id="hi-label">
+          HIGH:
+
+          <span id="hi-val">000</span>
+        </div>
+      </div>
+
+      <div id="overlay" class="visible">
+        <div class="terminal-box">
+          <h1 class="glitch-title">Flappy Bird</h1>
+
+          <p class="sub-text">[SPACE] OR [CLICK] TO INITIATE THRUST</p>
+
+          <button id="start-btn">START</button>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
